@@ -9,7 +9,7 @@
 
 body {
   font-size: 100%;
-  background: linear-gradient(68.15deg, #f7748a 16.62%, #cc8373 85.61%);
+  background: linear-gradient(68.15deg, #27796f 16.62%, #175847 85.61%);
 }
 
 .cabecalho {
@@ -22,7 +22,8 @@ body {
 
 .cabecalho-imagem {
   margin-left: -90px;
-  height: 72px;
+  height: 90px;
+  border-radius: 100%;
 }
 
 .menu {
@@ -34,8 +35,8 @@ body {
 .item {
   margin-left: 60px;
   font-family: 'Sarala', sans-serif;
-  color: #000000;
-  font-weight: 400;
+  color: white;
+  font-weight: 500;
   font-size: 18px
 }
 
@@ -61,14 +62,14 @@ body {
   font-family: 'Righteous', cursive;
   font-weight: 400;
   font-size: 64px;
-  color: #000000;
+  color: #c92217;
 }
 
 .conteudo-subtitulo {
   font-family: 'Sarala', sans-serif;
   font-weight: 400;
   font-size: 24px;
-  color: #000000;
+  color: white
 }
 
 .principal-botao:hover {
@@ -85,13 +86,13 @@ body {
   font-family: 'Sarala', sans-serif;
   font-weight: 400;
   font-size: 24px;
-  color: #2F2325;
+  color: #ff0000;
 }
 
 
 
 .principal-imagem {
-  height: 280px;
+  height: 200px;
 }
 
 .conteudo-secundario {
@@ -108,7 +109,7 @@ body {
   font-family: 'Righteous', cursive;
   font-weight: 400;
   font-size: 24px;
-  color: rgb(12, 11, 11);
+  color: #c92217;
   margin-bottom: 16px;
 }
 
@@ -116,7 +117,7 @@ body {
   font-family: 'Sarala', sans-serif;
   font-weight: 300;
   font-size: 20px;
-  color: #000000;
+  color: white;
 }
 
 .rodape {
@@ -125,7 +126,7 @@ body {
 }
 
 .rodape-imagem {
-  height: 48px;
+  height: 100px;
   display: block;
   margin: 0 auto;
 }
